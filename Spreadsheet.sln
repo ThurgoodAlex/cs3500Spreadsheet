@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormulaEvaluator", "FormulaEvaluator\FormulaEvaluator.csproj", "{84A0F489-E1E1-4890-9EF2-261983FF372E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{62E904E1-32BB-4B0E-A099-C0B24944B77A}"
+	ProjectSection(SolutionItems) = preProject
+		Whiteboard\architecture.png = Whiteboard\architecture.png
+		Whiteboard\dependency_graph_whiteboard.png = Whiteboard\dependency_graph_whiteboard.png
+		Whiteboard\formula_whiteboard.png = Whiteboard\formula_whiteboard.png
+		README.md = README.md
+		Whiteboard\spreadsheet_whiteboard.png = Whiteboard\spreadsheet_whiteboard.png
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormulaEvaluatorTester", "FormulaEvaluatorTester\FormulaEvaluatorTester.csproj", "{53F0361C-4DAF-4E1C-9797-0D5F218EA993}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyGraph", "DependencyGraph\DependencyGraph.csproj", "{EC91A76E-619B-42A1-9B55-12A6B6EC2CB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyGraphTests", "DependencyGraphTests\DependencyGraphTests.csproj", "{F6615A67-56E8-4AF5-81A7-ACB49157AD72}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradingTests", "GradingTests\GradingTests.csproj", "{273CA7DB-3270-4209-8866-7674C2C43A20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Formula", "Formula\Formula.csproj", "{DC21B6BB-4AF8-4DB4-A9E9-85E5244A7F08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormulaTests", "FormulaTests\FormulaTests.csproj", "{88985309-3EEF-4056-8364-FF75F034E187}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extensions", "Extensions\Extensions.csproj", "{2AA19B81-797B-480D-997E-372E904CFB42}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spreadsheet", "Spreadsheet\Spreadsheet.csproj", "{4780CD7A-DBBF-4248-907E-B9BC2DDAEAAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpreadsheetTests", "SpreadsheetTests\SpreadsheetTests.csproj", "{1BF65925-472D-45CE-8918-1CE5B8C55819}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84A0F489-E1E1-4890-9EF2-261983FF372E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A0F489-E1E1-4890-9EF2-261983FF372E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84A0F489-E1E1-4890-9EF2-261983FF372E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84A0F489-E1E1-4890-9EF2-261983FF372E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53F0361C-4DAF-4E1C-9797-0D5F218EA993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F0361C-4DAF-4E1C-9797-0D5F218EA993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F0361C-4DAF-4E1C-9797-0D5F218EA993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F0361C-4DAF-4E1C-9797-0D5F218EA993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC91A76E-619B-42A1-9B55-12A6B6EC2CB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC91A76E-619B-42A1-9B55-12A6B6EC2CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC91A76E-619B-42A1-9B55-12A6B6EC2CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC91A76E-619B-42A1-9B55-12A6B6EC2CB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6615A67-56E8-4AF5-81A7-ACB49157AD72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6615A67-56E8-4AF5-81A7-ACB49157AD72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6615A67-56E8-4AF5-81A7-ACB49157AD72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6615A67-56E8-4AF5-81A7-ACB49157AD72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{273CA7DB-3270-4209-8866-7674C2C43A20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{273CA7DB-3270-4209-8866-7674C2C43A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{273CA7DB-3270-4209-8866-7674C2C43A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{273CA7DB-3270-4209-8866-7674C2C43A20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC21B6BB-4AF8-4DB4-A9E9-85E5244A7F08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC21B6BB-4AF8-4DB4-A9E9-85E5244A7F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC21B6BB-4AF8-4DB4-A9E9-85E5244A7F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC21B6BB-4AF8-4DB4-A9E9-85E5244A7F08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88985309-3EEF-4056-8364-FF75F034E187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88985309-3EEF-4056-8364-FF75F034E187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88985309-3EEF-4056-8364-FF75F034E187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88985309-3EEF-4056-8364-FF75F034E187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AA19B81-797B-480D-997E-372E904CFB42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA19B81-797B-480D-997E-372E904CFB42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA19B81-797B-480D-997E-372E904CFB42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA19B81-797B-480D-997E-372E904CFB42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4780CD7A-DBBF-4248-907E-B9BC2DDAEAAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4780CD7A-DBBF-4248-907E-B9BC2DDAEAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4780CD7A-DBBF-4248-907E-B9BC2DDAEAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4780CD7A-DBBF-4248-907E-B9BC2DDAEAAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BF65925-472D-45CE-8918-1CE5B8C55819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF65925-472D-45CE-8918-1CE5B8C55819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF65925-472D-45CE-8918-1CE5B8C55819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF65925-472D-45CE-8918-1CE5B8C55819}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC3D364C-BF0B-47D0-9763-66B2D2D91F87}
+	EndGlobalSection
+EndGlobal
